@@ -94,6 +94,7 @@ header img{
 }
 
 .container form button{
+    cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
@@ -113,13 +114,16 @@ header img{
 
 .container form input::placeholder{
     color: hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1rem;
     opacity: .5;
 }
 
 .container form .error_Icon{
+    display: inline-block;
     position: absolute;
     top: 24%;
-    right: 85px;
+    right: 95px;
     display: none;
 }
 
@@ -129,6 +133,20 @@ header img{
     top: 40px;
     font-size: 1rem;
     display: none;
+}
+
+
+.container form.error .error_Icon,
+.container form.error .error_Text {
+	display: block;
+}
+.container form.error input {
+	border: 2px solid hsl(0, 93%, 68%);
+}
+
+.error{
+    display: block;
+    border-radius: 2px solid hsl(0, 93%, 68%);
 }
 
 @media only screen and (min-width:768px){
@@ -179,6 +197,10 @@ header img{
 
     .container form button{
         width: 80px;   
+    }
+
+    .container form .error_Icon{
+        right: 8px;
     }
     
 }
