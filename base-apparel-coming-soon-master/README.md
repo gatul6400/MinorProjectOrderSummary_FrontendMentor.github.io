@@ -15,6 +15,12 @@ Your users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The email address is not formatted correctly
 
+## Tech Stack
+
+- HTML
+- CSS
+- Java Script
+
 ## Deploying project
 
 - [GitHub Repository](https://github.com/gatul6400/MinorProjectOrderSummary_FrontendMentor.github.io/tree/main/base-apparel-coming-soon-master)
