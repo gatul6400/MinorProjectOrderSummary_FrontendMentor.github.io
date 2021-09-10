@@ -135,19 +135,15 @@ header img{
     display: none;
 }
 
-
 .container form.error .error_Icon,
 .container form.error .error_Text {
 	display: block;
 }
+
 .container form.error input {
 	border: 2px solid hsl(0, 93%, 68%);
 }
 
-.error{
-    display: block;
-    border-radius: 2px solid hsl(0, 93%, 68%);
-}
 
 @media only screen and (min-width:768px){
     header{
