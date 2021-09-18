@@ -26,6 +26,5 @@ Your users should be able to:
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- [GitHub Repository](https://github.com/gatul6400/MinorProjectOrderSummary_FrontendMentor.github.io/tree/main/social-media-dashboard-with-theme-switcher-master)
+- [GitHub Pages](https://gatul6400.github.io/MinorProjectOrderSummary_FrontendMentor.github.io/social-media-dashboard-with-theme-switcher-master/)
